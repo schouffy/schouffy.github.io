@@ -5568,6 +5568,12 @@ script+p {
     width: 150px;
 }
 
+@media (max-width: 991px) and (min-width: 768px) {
+    .panel-body td:first-child {
+        width: 100px;
+    }
+}
+
 .circle {
     float: left;
     border-radius: 5px;
